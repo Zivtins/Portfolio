@@ -1,3 +1,3 @@
 # Portfolio
 Programmēšanas darbs
-HEllo world
+Hello world
