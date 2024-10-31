@@ -1,4 +1,4 @@
-emailjs.init("56-IJZ5jVQmbz5ant");  // Replace "YOUR_PUBLIC_KEY" with the actual key
+emailjs.init("56-IJZ5jVQmbz5ant");  
 
 
 function epasts() {
@@ -13,7 +13,7 @@ function epasts() {
             email: document.getElementById("email-field").value,
             subject: document.getElementById("subject-field").value,
             message: document.getElementById("message-field").value,
-            "g-recaptcha-response": token,  // Add the reCAPTCHA token here
+            "g-recaptcha-response": token,  
         };
 
         emailjs.send("service_hbb84rg", "template_wt81bro", parametri)
